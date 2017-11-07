@@ -1,0 +1,13 @@
+On evClick
+	Do iHyperLinks.$line.$assign(pLineNumber)
+	Do iHyperLinks.$loadcols()
+	
+	If iHyperGrp=0
+		Do method getHyperLinks (iHyperCmd)
+	Else
+		If iHyperCmd=99
+			Do method getHyperLinks (0)
+		Else
+			Calculate iMsg as con('HyperLink ',iHyperCmd,' of Group ',pick(iHyperGrp,'','A','B','C','D'),' Clicked')
+		End If
+	End If

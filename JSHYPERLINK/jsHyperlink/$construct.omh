@@ -1,0 +1,4 @@
+;  Enter your initialization code here
+
+Do iHyperLinks.$define(iHyperName,iHyperGrp,iHyperCmd)
+Do method getHyperLinks
