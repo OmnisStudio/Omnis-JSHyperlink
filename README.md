@@ -1,5 +1,5 @@
 # Omnis-JSHyperlink
-Library uses the JS 'Hyper Link' control to manage groups of options. The app can be viewed here http://tinyurl.com/jsgallery8, click on ‘Hyperlink’ in the list.
+Library uses the JS 'Hyper Link' control to manage groups of options; the control presents a list of web-style hyperlinks from which the user can select. The app can be viewed here http://tinyurl.com/jsgallery8, click on ‘Hyperlink’ in the list.
 
 Requires Omnis Studio 8.1.2 or above.
 
